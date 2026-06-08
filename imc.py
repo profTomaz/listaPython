@@ -1,0 +1,14 @@
+#Etapa1- Cálculo do IMC
+def calculo_imc(imc):
+    imc = peso /(altura*2)
+
+#Etapa2 - Teste do IMC
+def teste_imc(valor_imc):
+    if valor_imc >= 25:
+        return "ACIMA DO PESO"
+    else:
+        return "PESO NORMAL"
+#Etapa 3
+def resultado_imc(mensagem):
+    if mensagem == "ACIMA DO PESO":
+        return "Atenção Procure um Tratamento Médico"
